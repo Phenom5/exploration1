@@ -19,6 +19,10 @@ nav {
     justify-content: space-between;
 }
 
+button {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -53,3 +57,156 @@ nav {
     border: none;
     border-radius: 5px;
 } 
+
+
+
+/* Hero section/main lockup */
+
+main {
+
+}
+
+.hero-section {
+    margin: 48px 120px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 40%;    
+    height: 100vh;
+    margin: 32px 0;
+}
+
+.text-lockup {
+
+}
+
+.text-lockup > h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 24px 0;
+}
+
+.grad-txt {
+    color: #418BD8;
+}
+
+.text-lockup > button {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    color: #ffffff;
+    background: linear-gradient(164.29deg, #62F1F5 -4.34%, #701D94 114.56%);
+    border: none;
+    border-radius: 5px;
+}
+
+.updates-card {
+    display: block;
+    background: #101922;
+    border-radius: 10px;
+    border: 1px solid #418BD8;
+    padding: 16px;
+    margin: 32px 0;
+}
+
+.updates-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: #102436;
+    margin: 0;
+    width: fit-content;
+    border-radius: 7px;
+    border: 1px solid #418BD8;
+}
+
+.updates-card-title h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.updates-card-text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 16px  0;
+}
+
+.updates-card button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: #101922;
+    color: #ffffff;
+    margin: 0;
+    border-radius: 7px;
+    border: 1px solid #418BD8;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+    margin: 0;
+    width: 70%;
+    padding: 0;
+}
+
+.stat-item {
+
+}
+
+.stat-item p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 12px 0;
+}
+
+.stat-icon {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.stat-icon h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+
+
+
+.hero-right {
+    width: 40%;
+    height: 100vh;
+}
+
+.hero-right > img {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 20%;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 80%;
+}
+
+.hero-bg img {
+    height: 100%;
+}
+
+
